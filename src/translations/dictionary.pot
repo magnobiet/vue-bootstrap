@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: easygettext\n"
+"Project-Id-Version: \n"
+
+#: src/App.vue:11
+msgid "About"
+msgstr ""
+
+#: src/components/HelloWorld.vue:25
+msgid "Community Chat"
+msgstr ""
+
+#: src/components/HelloWorld.vue:23
+msgid "Core Docs"
+msgstr ""
+
+#: src/components/HelloWorld.vue:29
+msgid "Ecosystem"
+msgstr ""
+
+#: src/components/HelloWorld.vue:20
+msgid "Essential Links"
+msgstr ""
+
+#: src/components/HelloWorld.vue:6
+msgid "For guide and recipes on how to configure / customize this project, check out the"
+msgstr ""
+
+#: src/components/HelloWorld.vue:24
+msgid "Forum"
+msgstr ""
+
+#: src/App.vue:10
+msgid "Home"
+msgstr ""
+
+#: src/components/HelloWorld.vue:10
+msgid "Installed CLI Plugins"
+msgstr ""
+
+#: src/views/About.vue:2
+msgid "This is an about page"
+msgstr ""
+
+#: src/components/HelloWorld.vue:7
+msgid "vue-cli documentation"
+msgstr ""
+
+#: src/views/Home.vue:22
+msgid "Welcome to Your Vue.js App"
+msgstr ""

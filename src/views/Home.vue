@@ -2,20 +2,26 @@
 
 	<div class="home">
 		<img src="../assets/logo.png" alt="Vue logo">
-		<HelloWorld msg="Welcome to Your Vue.js App"/>
+		<HelloWorld :msg="message" />
 	</div>
 
 </template>
 
 <script>
 
-	// @ is an alias to /src
-	import HelloWorld from '@/components/HelloWorld.vue';
+	import HelloWorld from '@/components/HelloWorld';
 
 	export default {
 		name: 'home',
 		components: {
 			HelloWorld
+		},
+		computed: {
+			message: {
+				get() {
+					return this.$gettext('Welcome to Your Vue.js App');
+				}
+			}
 		}
 	};
 

@@ -7,11 +7,13 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
-    "test:e2e": "vue-cli-service test:e2e"
+    "gettext:extract": "./node_modules/.bin/gettext-extract --attribute v-translate --output src/translations/dictionary.pot $(find src -type f -name '*.vue')",
+    "gettext:compile": "./node_modules/.bin/gettext-compile --output src/translations/translations.json src/translations/*.po"
   },
   "dependencies": {
     "register-service-worker": "^1.0.0",
     "vue": "^2.5.17",
+    "vue-gettext": "^2.1.0",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
@@ -25,6 +27,7 @@
     "@vue/eslint-config-airbnb": "^3.0.3",
     "@vue/test-utils": "^1.0.0-beta.20",
     "chai": "^4.1.2",
+    "easygettext": "^2.6.4",
     "lint-staged": "^7.2.2",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
