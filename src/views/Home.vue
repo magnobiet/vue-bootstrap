@@ -2,7 +2,7 @@
 
 	<div class="home">
 
-		<img src="../assets/logo.png" alt="Vue logo">
+		<img src="@/assets/img/logo.png" alt="Vue logo">
 
 		<div class="hello">
 

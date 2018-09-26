@@ -16,7 +16,7 @@
 
 </template>
 
-<style src="@/assets/styles/app.scss" lang="scss"></style>
+<style src="@/assets/css/app.scss" lang="scss"></style>
 
 <script>
 
