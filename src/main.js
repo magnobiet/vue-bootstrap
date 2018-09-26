@@ -1,9 +1,9 @@
 import Vue from 'vue';
-import App from './App.vue';
-import router from './router';
-import store from './store';
+import App from '@/views/App.vue';
+import router from '@/router';
+import store from '@/store';
 import GetTextPlugin from 'vue-gettext';
-import translations from './translations/translations.json';
+import translations from '@/translations/translations.json';
 
 import './registerServiceWorker';
 
